@@ -33,8 +33,10 @@ const StyledSvg = styled.svg`
   position: absolute;
   top: 0;
   z-index: -1;
-
   width: 100%;
   margin: auto;
+  @media (max-width: 650px) {
+    top: 0;
+  }
 `;
 export default WaveBackground;

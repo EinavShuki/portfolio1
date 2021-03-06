@@ -4,8 +4,8 @@ import Shape from "./Shape";
 
 const Skills = () => {
   return (
-    <StyledContainerDiv>
-      <StyledDiv id="skills">
+    <StyledContainerDiv id="skills">
+      <StyledDiv>
         <Shape />
         <h1>My Skills</h1>
         <p>
@@ -23,8 +23,8 @@ const Skills = () => {
 };
 const StyledContainerDiv = styled.div`
   position: relative;
-  min-height: 100vh;
-  margin-top: 1.5rem;
+  min-height: 70vh;
+  padding-top: 2rem;
 `;
 
 const StyledDiv = styled.div`

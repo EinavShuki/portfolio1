@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import WaveBackground from "./WaveBackground";
-import photo from "../img/profileImg.png";
+import me from "../img/profileImg.png";
 function AboutMe() {
   return (
     <>
       {" "}
       <WaveBackground />
-      <StyledDiv id="About">
+      <StyledDiv id="about">
         <StyledSpanName>
           {" "}
           <StyledDivName>
@@ -21,30 +21,34 @@ function AboutMe() {
           </StyledDivName>
         </StyledSpanName>
         <StyleContentDiv>
-          <StyledImg src={photo} alt="me" />
+          <StyledImg src={me} alt="me" />
           <p>
             Strong problem-solving skills along with the ability to work
             independently. Highly motivated, a quick learner, and a team player.
             <b> Can do attitude.</b>
           </p>
         </StyleContentDiv>
-        <StyleA
+        <StyledA
           target="_blank"
           rel="noreferrer"
           href="https://drive.google.com/file/d/1rK9mz0qoCEeK4b99Vo7RM6c5K7v1bYYF/view?usp=sharing"
         >
           {"{"} My Resume {"}"}
-        </StyleA>
+        </StyledA>
       </StyledDiv>
     </>
   );
 }
 const StyledDiv = styled.div`
-  min-height: 90vh;
+  min-height: 85vh;
   width: 80%;
   margin: auto;
+  margin-top: 5.3rem;
   display: flex;
   flex-direction: column;
+  @media (max-width: 650px) {
+    min-height: 90vh;
+  }
 `;
 const StyledSpanName = styled.span`
   margin-top: 1rem;
@@ -75,7 +79,7 @@ const StyleContentDiv = styled.div`
   display: flex;
   align-items: center;
   p {
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   }
   @media (max-width: 650px) {
     flex-direction: column;
@@ -90,7 +94,9 @@ const StyledImg = styled.img`
     margin: 0;
   }
 `;
-const StyleA = styled.a`
+const StyledA = styled.a`
+  position: relative;
+
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-size: 2.4rem;

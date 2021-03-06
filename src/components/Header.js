@@ -4,15 +4,18 @@ import styled from "styled-components";
 function Header() {
   return (
     <StyledDiv>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects_">Projects</a>
-      <a href="#contacts_">Contacts</a>
+      <StyledA href="#about">About</StyledA>
+      <StyledA href="#skills">Skills</StyledA>
+      <StyledA href="#projects_">Projects</StyledA>
+      <StyledA href="#contacts_">Contacts</StyledA>
     </StyledDiv>
   );
 }
 
 const StyledDiv = styled.div`
+  position: fixed;
+  top: 0;
+  z-index: 2;
   width: 100%;
   height: 10vh;
   margin: auto;
@@ -24,6 +27,13 @@ const StyledDiv = styled.div`
     a {
       font-size: 1rem;
     }
+  }
+`;
+const StyledA = styled.a`
+  transition: all 275ms ease;
+  cursor: pointer;
+  &:hover {
+    color: #fffffd;
   }
 `;
 

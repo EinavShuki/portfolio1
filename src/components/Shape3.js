@@ -1,43 +1,47 @@
 import React from "react";
 import styled from "styled-components";
 
-function Shape() {
+const Shape3 = () => {
   return (
     <StyledSvg
-      width="240"
-      height="701"
-      viewBox="0 0 312 801"
+      width="621"
+      height="652"
+      viewBox="0 0 621 652"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M311.954 800.393C169.154 772.975 94.4238 710.5 41.9998 646C-47.7778 535.542 20.9537 394 129.954 288C268.853 152.923 280.496 32.5028 311.954 0V800.393Z"
+        d="M620.999 652V0C618.537 180.987 171.192 370.998 72 414C-170.967 519.332 250.285 639.452 620.999 652Z"
+        fill="#B58C8C"
+      />
+      <path
+        d="M620.999 652V0C618.537 180.987 171.192 370.998 72 414C-170.967 519.332 250.285 639.452 620.999 652Z"
         fill="url(#paint0_linear)"
       />
       <defs>
         <linearGradient
           id="paint0_linear"
-          x1="212.804"
-          y1="750.313"
-          x2="590.44"
-          y2="119.765"
+          x1="657.035"
+          y1="16.0006"
+          x2="198.864"
+          y2="627.948"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#B58C8C" />
+          <stop offset="0.369792" stopColor="white" stopOpacity="0.14" />
           <stop offset="1" stopColor="#E1C9C9" />
         </linearGradient>
       </defs>
     </StyledSvg>
   );
-}
-
+};
 const StyledSvg = styled.svg`
   position: absolute;
   top: 0rem;
   right: 0;
   z-index: -1;
   @media (max-width: 650px) {
-    right: -160px;
+    right: -300px;
   }
 `;
-export default Shape;
+
+export default Shape3;

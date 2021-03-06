@@ -33,13 +33,21 @@ h1{
         font-size:3.7rem;
     }
 }
+h3{
+    font-size:2rem;
+    margin-top:1rem;
+    @media (max-width: 650px) {
+        font-size:3.7rem;
+    }
+}
 
 p{
-    font-size:1.5rem;
+    font-size:1.7rem;
     font-family: 'Raleway', sans-serif;
     @media (max-width: 650px) {
         font-size:1.3rem;
     }
+
 }
 
 
