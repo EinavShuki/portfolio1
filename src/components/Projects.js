@@ -6,11 +6,11 @@ import Shpae2 from "./Shpae2";
 
 const Projects = () => {
   return (
-    <StyledContainerDiv id="projects_">
+    <StyledContainerDiv>
       <StyledDiv>
         <Shpae2 />
         <Shpae2M />
-        <h1>Projects</h1>
+        <h1 id="projects_">Projects</h1>
         <h3>
           Movies Rating{" "}
           <StyledLink
@@ -45,7 +45,7 @@ const Projects = () => {
 const StyledContainerDiv = styled.div`
   position: relative;
   min-height: 70vh;
-  padding-top: 2rem;
+  margin-top: 2rem;
 `;
 const StyledDiv = styled.div`
   width: 80%;

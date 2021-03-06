@@ -13,27 +13,27 @@ function Header() {
 }
 
 const StyledDiv = styled.div`
-  position: fixed;
   top: 0;
   z-index: 2;
   width: 100%;
-  height: 10vh;
+  height: 4rem;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.2);
   @media (max-width: 650px) {
+    height: 3rem;
     a {
       font-size: 1rem;
     }
   }
 `;
 const StyledA = styled.a`
-  transition: all 275ms ease;
+  transition: all 400ms ease;
   cursor: pointer;
   &:hover {
-    color: #fffffd;
+    color: #b58c8c;
   }
 `;
 

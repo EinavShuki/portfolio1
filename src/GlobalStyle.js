@@ -13,9 +13,7 @@ html {
 body{
     font-family: 'Abril Fatface', cursive;
     background-color: #5E5E5E;
-    color: #E5E5e5;
-    overflow-x:hidden;
-   
+    color: #E5E5e5;   
 }
 
 a{

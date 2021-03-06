@@ -10,11 +10,11 @@ const Contacts = () => {
     aos.init({ duration: 2000, easing: "ease-in-out", delay: 300 });
   }, []);
   return (
-    <StyledContainerDiv id="contacts_">
+    <StyledContainerDiv>
       <StyledDiv>
         <Shape3 />
         <Shape3M />
-        <h1>Contacts</h1>
+        <h1 id="contacts_">Contacts</h1>
         <StyledP data-aos="zoom-in-up">
           <StyledLinks
             target="_blank"
@@ -45,10 +45,8 @@ const Contacts = () => {
 };
 const StyledContainerDiv = styled.div`
   position: relative;
-  min-height: 70vh;
-  padding-top: 2rem;
-  @media (max-width: 650px) {
-  }
+  min-height: 20vh;
+  margin-top: 2rem;
 `;
 const StyledDiv = styled.div`
   width: 80%;

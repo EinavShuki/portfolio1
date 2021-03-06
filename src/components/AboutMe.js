@@ -24,8 +24,9 @@ function AboutMe() {
           <StyledImg src={me} alt="me" />
           <p>
             Strong problem-solving skills along with the ability to work
-            independently. Highly motivated, a quick learner, and a team player.
-            <b> Can do attitude.</b>
+            independently. Highly motivated, a quick learner, and
+            <b> a team player</b>. B.Sc. degree in Computer Science with a{" "}
+            <b>certificate of excellence</b>.
           </p>
         </StyleContentDiv>
         <StyledA
@@ -43,7 +44,7 @@ const StyledDiv = styled.div`
   min-height: 85vh;
   width: 80%;
   margin: auto;
-  margin-top: 5.3rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   @media (max-width: 650px) {
