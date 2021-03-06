@@ -35,12 +35,13 @@ const Shape3 = () => {
   );
 };
 const StyledSvg = styled.svg`
+  overflow: hidden;
   position: absolute;
-  top: 0rem;
+  top: 0;
   right: 0;
   z-index: -1;
   @media (max-width: 650px) {
-    right: -300px;
+    visibility: hidden;
   }
 `;
 

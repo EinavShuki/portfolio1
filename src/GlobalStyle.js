@@ -37,7 +37,7 @@ h3{
     font-size:2rem;
     margin-top:1rem;
     @media (max-width: 650px) {
-        font-size:3.7rem;
+        font-size:1.9rem;
     }
 }
 

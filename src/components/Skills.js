@@ -1,12 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import Shape from "./Shape";
+import ShapeM from "./ShapeM";
 
 const Skills = () => {
   return (
     <StyledContainerDiv id="skills">
       <StyledDiv>
         <Shape />
+        <ShapeM />
         <h1>My Skills</h1>
         <p>
           B.Sc. degree in Computer Science with a{" "}

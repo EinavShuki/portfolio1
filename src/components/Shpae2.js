@@ -40,7 +40,7 @@ const StyledSvg = styled.svg`
   left: 0px;
   z-index: -1;
   @media (max-width: 650px) {
-    left: -160px;
+    visibility: hidden;
   }
 `;
 

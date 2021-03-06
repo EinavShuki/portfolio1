@@ -1,17 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
-function Shape() {
+function ShapeM() {
   return (
     <StyledSvg
-      width="240"
-      height="701"
-      viewBox="0 0 312 801"
+      width="84"
+      height="179"
+      viewBox="0 0 84 179"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M311.954 800.393C169.154 772.975 94.4238 710.5 41.9998 646C-47.7778 535.542 20.9537 394 129.954 288C268.853 152.923 280.496 32.5028 311.954 0V800.393Z"
+        d="M84 179V0C76.7056 13.2119 66.3073 13.9481 64.0555 17.4351C61.8037 20.9221 36.7121 64.5097 9.04707 87.7565C-18.618 111.003 20.2236 168.675 84 179Z"
+        fill="#B58C8C"
+      />
+      <path
+        d="M84 179V0C76.7056 13.2119 66.3073 13.9481 64.0555 17.4351C61.8037 20.9221 36.7121 64.5097 9.04707 87.7565C-18.618 111.003 20.2236 168.675 84 179Z"
         fill="url(#paint0_linear)"
       />
       <defs>
@@ -32,13 +36,14 @@ function Shape() {
 }
 
 const StyledSvg = styled.svg`
-  overflow: hidden;
-  position: absolute;
-  top: 0rem;
-  right: 0;
-  z-index: -1;
+  visibility: hidden;
+
   @media (max-width: 650px) {
-    visibility: hidden;
+    visibility: visible;
+    position: absolute;
+    top: -10rem;
+    right: 0;
+    z-index: -1;
   }
 `;
-export default Shape;
+export default ShapeM;

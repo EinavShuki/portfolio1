@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Shape3 from "./Shape3";
 import aos from "aos";
 import "aos/dist/aos.css";
+import Shape3M from "./Shape3M";
 
 const Contacts = () => {
   useEffect(() => {
@@ -12,8 +13,9 @@ const Contacts = () => {
     <StyledContainerDiv id="contacts_">
       <StyledDiv>
         <Shape3 />
+        <Shape3M />
         <h1>Contacts</h1>
-        <StyledP data-aos="zoom-in-up" data-aos-anchor-placement="top-top">
+        <StyledP data-aos="zoom-in-up">
           <StyledLinks
             target="_blank"
             rel="noreferrer"
@@ -43,9 +45,10 @@ const Contacts = () => {
 };
 const StyledContainerDiv = styled.div`
   position: relative;
-  min-height: 90vh;
-
+  min-height: 70vh;
   padding-top: 2rem;
+  @media (max-width: 650px) {
+  }
 `;
 const StyledDiv = styled.div`
   width: 80%;

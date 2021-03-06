@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import songappimg from "../img/song-app.png";
+import Shpae2M from "./Shape2M";
 import Shpae2 from "./Shpae2";
 
 const Projects = () => {
@@ -8,6 +9,7 @@ const Projects = () => {
     <StyledContainerDiv id="projects_">
       <StyledDiv>
         <Shpae2 />
+        <Shpae2M />
         <h1>Projects</h1>
         <h3>
           Movies Rating{" "}
@@ -52,6 +54,9 @@ const StyledDiv = styled.div`
 const StyledImag = styled.img`
   width: 18rem;
   margin: 1rem;
+  @media (max-width: 650px) {
+    width: 12rem;
+  }
 `;
 const StyledLink = styled.a`
   color: #b58c8c;
