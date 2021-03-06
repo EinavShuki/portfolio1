@@ -27,8 +27,8 @@ const Shpae2M = () => {
           y2="-26.2477"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0388464" stop-color="#E1C9C9" />
-          <stop offset="0.787102" stop-color="white" stop-opacity="0" />
+          <stop offset="0.0388464" stopColor="#E1C9C9" />
+          <stop offset="0.787102" stopColor="white" stopOpacity="0" />
         </linearGradient>
       </defs>
     </StyledSvg>

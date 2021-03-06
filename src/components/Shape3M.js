@@ -27,8 +27,8 @@ const Shape3M = () => {
           y2="119.832"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.369792" stop-color="white" stop-opacity="0.14" />
-          <stop offset="1" stop-color="#E1C9C9" />
+          <stop offset="0.369792" stopColor="white" stopOpacity="0.14" />
+          <stop offset="1" stopColor="#E1C9C9" />
         </linearGradient>
       </defs>
     </StyledSvg>
