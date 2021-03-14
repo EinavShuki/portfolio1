@@ -11,7 +11,7 @@ const Projects = () => {
         <Shpae2 />
         <Shpae2M />
         <h1 id="projects_">Projects</h1>
-        <h3>
+        <StyledSubTitle>
           Movies Rating{" "}
           <StyledLink
             target="_blank"
@@ -21,18 +21,18 @@ const Projects = () => {
           >
             <i className="fas fa-link"></i>
           </StyledLink>
-        </h3>
+        </StyledSubTitle>
         <p>
           Allows users to view and add movies recomendation and reviews. Using{" "}
           <b>React, NodeJS ,Express, MongoDB</b> with <b>mongoose</b>.
         </p>
-        <h3>Song In Pic</h3>
+        <StyledSubTitle>Song In Pic</StyledSubTitle>
         <p>
-          Israeli <b>android</b> game in which the user guesses the song that is
+          Israeli <b>Android</b> game in which the user guesses the song that is
           presented as an image enigma. Using <b>Youtube API</b>.
         </p>
         <StyledImag src={songappimg} className="phone_img" alt="app_images" />
-        <h3>MATAK</h3>
+        <StyledSubTitle>MATAK</StyledSubTitle>
         <p>
           A React web site that helps to coordinate and confirm routes on a map.
           <br></br>
@@ -51,6 +51,9 @@ const StyledDiv = styled.div`
   width: 80%;
   margin: auto;
 `;
+const StyledSubTitle = styled.h3`
+  margin-top: 1rem;
+`;
 const StyledImag = styled.img`
   width: 18rem;
   margin: 1rem;
@@ -59,6 +62,8 @@ const StyledImag = styled.img`
   }
 `;
 const StyledLink = styled.a`
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  font-size: 2.2rem;
   color: #b58c8c;
   &:hover {
     color: #f9e7e7;

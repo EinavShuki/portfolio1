@@ -79,9 +79,6 @@ const StyledBackName = styled.h1`
 const StyleContentDiv = styled.div`
   display: flex;
   align-items: center;
-  p {
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  }
   @media (max-width: 650px) {
     flex-direction: column;
   }

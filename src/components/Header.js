@@ -33,7 +33,7 @@ const StyledA = styled.a`
   transition: all 400ms ease;
   cursor: pointer;
   &:hover {
-    color: #b58c8c;
+    color: #5e5e5e;
   }
 `;
 

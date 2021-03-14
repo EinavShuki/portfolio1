@@ -20,7 +20,7 @@ a{
     text-decoration: none;
     font-size: 1.6rem;
     cursor: pointer;
-    color: #E5E5e5;
+    color: white;
 }
 
 h1{
@@ -41,6 +41,8 @@ h3{
 
 p{
     font-size:1.7rem;
+    color:#f2f2f2;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     font-family: 'Raleway', sans-serif;
     @media (max-width: 650px) {
         font-size:1.3rem;
