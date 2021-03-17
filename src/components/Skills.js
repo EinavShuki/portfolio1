@@ -12,7 +12,10 @@ const Skills = () => {
         <h1 id="skills">My Skills</h1>
         <p>
           Having a Deep knowledge in object-oriented programming.<br></br>
-          <b> Java | HTML | CSS | ReactJS | NodeJS | MongoDB | C++</b>
+          <b>
+            {" "}
+            Java| JavaScript | HTML | CSS | ReactJS | NodeJS | MongoDB | C++
+          </b>
           <br></br>
           <br></br>
           Familiarity with Angular, PHP, jQuery, Python (Numpy, Pandas).
