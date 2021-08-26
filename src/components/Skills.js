@@ -14,11 +14,9 @@ const Skills = () => {
           Having a Deep knowledge in object-oriented programming.<br></br>
           <b>
             {" "}
-            Java| JavaScript | HTML | CSS | ReactJS | NodeJS | MongoDB | C++
+            JavaScript | TypeScript | Java | HTML | CSS | ReactJS | Redux |
+            NodeJS | MongoDB | SQL | Firebase | Cocos Creator | GIT | OOP
           </b>
-          <br></br>
-          <br></br>
-          Familiarity with Angular, PHP, jQuery, Python (Numpy, Pandas).
         </p>
       </StyledDiv>
     </StyledContainerDiv>

@@ -8,17 +8,19 @@ const Experience = () => {
   return (
     <StyledContainerDiv>
       <StyledDiv>
-      <Shpae2 />
+        <Shpae2 />
         <Shpae2M />
         <h1 id="experience">My Experience</h1>
         <StyledSpan>
-        <StyledImg src={AnakatechIcon} alt="AnakatechIcon"/>
-        <StyledSubTitle>
-        Netomedia-Anakatech | Game Developer. <br></br>
-        </StyledSubTitle>
+          <StyledImg src={AnakatechIcon} alt="AnakatechIcon" />
+          <StyledSubTitle>
+            Netomedia-Anakatech | Game Developer. <br></br>
+          </StyledSubTitle>
         </StyledSpan>
         <p>
-        Developing in <b>Typescript</b>, using <b>Cocos-Creator</b> game's engine.
+          Develop gambling games in <b>Typescript</b>, using{" "}
+          <b>Cocos-Creator</b> game's engine. This role demands from me to have
+          a strong self-learning ability along with a creative mind.
         </p>
       </StyledDiv>
     </StyledContainerDiv>
@@ -29,14 +31,14 @@ const StyledContainerDiv = styled.div`
   min-height: 70vh;
   margin-top: 2rem;
 `;
-const StyledSpan=styled.span`
-display: flex;
-align-items: baseline;
-`
+const StyledSpan = styled.span`
+  display: flex;
+  align-items: baseline;
+`;
 const StyledImg = styled.img`
- height: 25px;
- margin-right: 3%
-`; 
+  height: 25px;
+  margin-right: 3%;
+`;
 
 const StyledSubTitle = styled.p`
   margin-top: 1rem;
