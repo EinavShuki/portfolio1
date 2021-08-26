@@ -32,7 +32,7 @@ function AboutMe() {
         <StyledA
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1rK9mz0qoCEeK4b99Vo7RM6c5K7v1bYYF/view?usp=sharing"
+          href="https://drive.google.com/file/d/17UJOLtskn4QzCjGz_b0a1uMogjmkSxGM/view?usp=sharing"
         >
           {"{"} My Resume {"}"}
         </StyledA>
