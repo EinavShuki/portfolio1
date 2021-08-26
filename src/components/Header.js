@@ -5,6 +5,7 @@ function Header() {
   return (
     <StyledDiv>
       <StyledA href="#about">About</StyledA>
+      <StyledA href="#experience">Experience</StyledA>
       <StyledA href="#skills">Skills</StyledA>
       <StyledA href="#projects_">Projects</StyledA>
       <StyledA href="#contacts_">Contacts</StyledA>
@@ -25,7 +26,7 @@ const StyledDiv = styled.div`
   @media (max-width: 650px) {
     height: 3rem;
     a {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
 `;

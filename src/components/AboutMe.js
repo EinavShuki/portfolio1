@@ -32,7 +32,7 @@ function AboutMe() {
         <StyledA
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/17UJOLtskn4QzCjGz_b0a1uMogjmkSxGM/view?usp=sharing"
+          href="https://drive.google.com/file/d/1tZ2UsYzDHHBxEABCh5H5qpsW1eqI7c14/view?usp=sharing"
         >
           {"{"} My Resume {"}"}
         </StyledA>
@@ -41,14 +41,14 @@ function AboutMe() {
   );
 }
 const StyledDiv = styled.div`
-  min-height: 85vh;
+  min-height: 75vh;
   width: 80%;
   margin: auto;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   @media (max-width: 650px) {
-    min-height: 90vh;
+    min-height: 95vh;
   }
 `;
 const StyledSpanName = styled.span`
@@ -94,11 +94,10 @@ const StyledImg = styled.img`
 `;
 const StyledA = styled.a`
   position: relative;
-
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-size: 2.4rem;
-  color: #b58c8c;
+  color: #e6afaf;
   align-self: center;
   font-family: "Abril Fatface", cursive;
   transition: all 275ms ease;

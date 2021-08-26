@@ -10,7 +10,7 @@ const Projects = () => {
       <StyledDiv>
         <Shpae2 />
         <Shpae2M />
-        <h1 id="projects_">Projects</h1>
+        <h1 id="projects_">My Projects</h1>
         <StyledSubTitle>
           Movies Rating{" "}
           <StyledLink
